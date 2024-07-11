@@ -8,6 +8,8 @@ A model for generating synthetic time series data using pre-trained large langua
 
 ### Input data
 
+The input data uses the times series of the sales of products from the [M5 forecasting accuracy](https://www.kaggle.com/competitions/m5-forecasting-accuracy) dataset.
+
 |FOODS_1_001|FOODS_1_002|FOODS_1_003|FOODS_1_004|FOODS_1_005|FOODS_1_006|FOODS_1_008|FOODS_1_009|FOODS_1_010|...|
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 |9.0        |5.0        |23.0       |0.0        |26.0       |21.0       |0.0        |0.0        |0.0        |  |
@@ -25,6 +27,8 @@ A model for generating synthetic time series data using pre-trained large langua
 
 #### Output
 
+The output data contains new time series generated for the products
+
 |FOODS_1_001|FOODS_1_002|FOODS_1_003|FOODS_1_004|FOODS_1_005|FOODS_1_006|FOODS_1_008|FOODS_1_009|FOODS_1_010|...|
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 |7.9772744  |1.9886382  |4.0183244  |0.0        |18.059378  |12.969387  |0.0        |0.0        |0.5625     |  |
@@ -40,6 +44,8 @@ A model for generating synthetic time series data using pre-trained large langua
 
 #### Time series
 
+Example of generated time series visualization.
+
 | Model | Time series |
 | ------------- | ------------- |
 | Original data  | ![alt text](images/output_original.png) |
@@ -49,6 +55,8 @@ A model for generating synthetic time series data using pre-trained large langua
 | Proposed model  | ![alt text](images/output_proposed.png) |
 
 #### Distribution of output values
+
+The comparison of output values between models.
 
 ![alt text](<images/Compare distribution of output values.png>)
 
